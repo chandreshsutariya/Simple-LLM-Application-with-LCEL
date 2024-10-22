@@ -11,10 +11,10 @@ import os
 
 # configuring for langsmith
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = ""
 
 #configuring for openai
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 
 model = ChatOpenAI(model="gpt-4")

@@ -13,7 +13,7 @@ import os
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = ""
 
-#configuring for openai
+#configuring for openaig
 os.environ["OPENAI_API_KEY"] = ""
 
 
